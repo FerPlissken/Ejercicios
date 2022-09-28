@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Coche {
+    public Coche(Object puerta) {
+            }
+
+    public static void main(String[] args) {
+
+        int numPuertas = 0;
+
+        System.out.println("Introduce el numero de puertas: " + numPuertas);
+        Scanner s = new Scanner(System.in);
+        numPuertas = s.nextInt();
+
+        int incPuerta = numPuertas + 1;
+
+        for (int i = incPuerta; i<= numPuertas + 1; i++){
+        }
+
+        Coche miCoche = new Coche(incPuerta);
+        incPuerta = miCoche.puertas(incPuerta);
+
+        System.out.println("Numero de puertas que tiene el coche: " + incPuerta);
+
+    }
+
+    private int puertas(int incPuerta) {
+        return incPuerta;
+    }
+}
