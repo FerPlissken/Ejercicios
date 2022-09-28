@@ -7,14 +7,14 @@ public class FuncionParametros {
         int num2;
         int num3;
 
-        System.out.println("Introduce el primer numero: ");
+        System.out.println("Introduce el primer número: ");
         Scanner s = new Scanner(System.in);
         num1 = s.nextInt();
 
-        System.out.println("Introduce el segundo numero: ");
+        System.out.println("Introduce el segundo número: ");
         num2 = s.nextInt();
 
-        System.out.println("Introduce el tercer numero: ");
+        System.out.println("Introduce el tercer número: ");
         num3 = s.nextInt();
 
         int resultado;
