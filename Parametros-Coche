@@ -1,3 +1,5 @@
+************** EJERCICIO PARÁMETROS **************
+
 import java.util.Scanner;
 
 public class FuncionParametros {
@@ -22,3 +24,25 @@ public class FuncionParametros {
         resultado = num1 + num2 + num3;
         System.out.println("El resultado de la suma es: " + resultado);
     }}
+
+
+************** EJERCICIO COCHE *******************
+
+public class Coche {
+
+        int numPuertas;
+
+        public Coche(int numPuertas){
+            this.numPuertas = numPuertas;      }
+
+        public void incPuerta(){
+            this.numPuertas++;
+            System.out.println("El numero de puertas que tiene el coche es: " + this.numPuertas);
+        }
+
+    public static void main(String[] args) {
+
+            Coche miCoche = new Coche(0);
+            miCoche.incPuerta();
+    }
+}
