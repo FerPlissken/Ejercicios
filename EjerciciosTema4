@@ -1,0 +1,87 @@
+********* EJERCICIO IF *********
+
+import javax.swing.*;
+
+public class EjercicioIf {
+
+    public static void main(String[] args) {
+
+        int numeroIf;
+        numeroIf = Integer.parseInt(JOptionPane.showInputDialog("Introduzca un número"));
+
+        if (numeroIf > 0) {
+            System.out.println("El número es Positivo");
+        }
+        else if (numeroIf < 0){
+            System.out.println("El número es Negativo");
+        }
+        else {
+            System.out.println("El número es Cero");
+        }
+    }
+}
+
+********* EJERCICIO WHILE *********
+
+public class EjercicioWhile {
+    public static void main(String[] args) {
+        int numeroWhile = 0;
+
+        while (numeroWhile < 3){
+            System.out.println("" + numeroWhile);
+            numeroWhile++;
+        }
+    }
+}
+
+********* EJERCICIO DO WHILE *********
+
+public class EjercicioDoWhile {
+    public static void main(String[] args) {
+
+        int numeroWhile = 0;
+       do {
+           System.out.println("" + numeroWhile);
+           numeroWhile++;
+       }
+        while (numeroWhile < 3);
+    }
+}
+
+********* EJERCICIO FOR *********
+
+public class EjercicioFor {
+    public static void main(String[] args) {
+
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor++){
+            System.out.println("NumeroFor: " + numeroFor);
+    }
+}}
+
+********* EJERCICIO SWITCH *********
+
+import javax.swing.*;
+
+public class EjercicioSwitch {
+
+    public static void main(String[] args) {
+
+        int estacion;
+        estacion = Integer.parseInt(JOptionPane.showInputDialog("Introduzca un número del 1 al 4 para elegir la estación: "));
+        String nombreEstacion;
+
+        switch (estacion) {
+            case 1: nombreEstacion = "Primavera";
+            break;
+            case 2: nombreEstacion = "Verano";
+                break;
+            case 3: nombreEstacion = "Otoño";
+                break;
+            case 4: nombreEstacion = "Invierno";
+                break;
+            default: nombreEstacion = "El valor introducido no corresponde a una estación";
+            break;
+        }
+        System.out.println("La Estación es: " + nombreEstacion);
+    }
+}
