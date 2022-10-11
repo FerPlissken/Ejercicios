@@ -25,17 +25,14 @@ public class Persona {
 
     public static void main(String[] args) {
 
-        Persona edad = new Persona();
-        edad.setEdad (23);
+        Persona persona = new Persona();
+        
+        persona.setEdad (23);
+        persona.setNombre ("Anastasio");
+        persona.setTelf(902202122);
 
-        Persona nombre = new Persona();
-        nombre.setNombre ("Anastasio");
-
-        Persona telf = new Persona();
-        telf.setTelf(902202122);
-
-        System.out.println("Edad: " + edad.getEdad());
-        System.out.println("Nombre: " + nombre.getNombre());
-        System.out.println("Teléfono: " + telf.getTelf());
+        System.out.println("Edad: " + persona.getEdad());
+        System.out.println("Nombre: " + persona.getNombre());
+        System.out.println("Teléfono: " + persona.getTelf());
 
     }}
