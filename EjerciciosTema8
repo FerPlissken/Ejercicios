@@ -1,21 +1,11 @@
 public class Persona {
 
-    private String persona;
-    
-    public void setPersona (String persona) {
-        this.persona = persona;
-    }
-    public String getPersona (){
-        return this.persona;
-    }
-    
-    private int edad;
-    private String nombre;
-    private int telf;
+        private int edad;
+        private String nombre;
+        private int telf;
 
     public void setEdad (int edad){
-        this.edad = edad; 
-    }
+        this.edad = edad;    }
     public int getEdad(){
         return this.edad;
     }
@@ -26,30 +16,26 @@ public class Persona {
     public String getNombre(){
         return this.nombre;
     }
-    
     public void setTelf (int telf){
         this.telf = telf;
     }
     public int getTelf(){
         return this.telf;
-    }
+        }
 
     public static void main(String[] args) {
 
         Persona edad = new Persona();
-        edad.setPersona ("Edad");
-        edad.setEdad(23);
+        edad.setEdad (23);
 
         Persona nombre = new Persona();
-        nombre.setPersona ("Nombre");
-        nombre.setNombre("ANASTASIO");
+        nombre.setNombre ("Anastasio");
 
         Persona telf = new Persona();
-        telf.setPersona ("Teléfono");
         telf.setTelf(902202122);
 
-        System.out.println(edad.getPersona() + ": " + edad.getEdad());
-        System.out.println(nombre.getPersona() + ": " + nombre.getNombre());
-        System.out.println(telf.getPersona() + ": " + telf.getTelf());
+        System.out.println("Edad: " + edad.getEdad());
+        System.out.println("Nombre: " + nombre.getNombre());
+        System.out.println("Teléfono: " + telf.getTelf());
 
     }}
