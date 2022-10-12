@@ -21,18 +21,18 @@ public class Persona {
     }
     public int getTelf(){
         return this.telf;
-        }
+        }}
 
+    class Main {
     public static void main(String[] args) {
 
         Persona persona = new Persona();
-        
-        persona.setEdad (23);
-        persona.setNombre ("Anastasio");
+
+        persona.setEdad(23);
+        persona.setNombre("Anastasio");
         persona.setTelf(902202122);
 
         System.out.println("Edad: " + persona.getEdad());
         System.out.println("Nombre: " + persona.getNombre());
         System.out.println("Teléfono: " + persona.getTelf());
-
     }}
