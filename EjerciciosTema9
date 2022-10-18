@@ -1,0 +1,46 @@
+public class Persona {
+
+    private String nombre;
+    private int edad;
+    private int telf;
+
+    public int getEdad() {return this.edad;}
+    public void setEdad(int edad) {this.edad = edad;}
+
+    public String getNombre() {return this.nombre;}    
+    public void setNombre(String nombre) {this.nombre = nombre;}
+    
+    public int getTelf() {return this.telf;}
+    public void setTelf(int telf) {this.telf = telf;}
+    
+class Cliente extends Persona {
+    
+    int credit;
+    
+    public int getCredit() {return this.credit;}
+    public void setCredit(int credit) {this.credit = credit;}
+       }
+
+    class Main {
+
+        public void main(String[] args) {
+
+            Cliente cliente = new Cliente();
+
+            cliente.setEdad(33);
+            cliente.setNombre("Mauricio");
+            cliente.setTelf(666777888);
+            cliente.setCredit(500);
+
+            System.out.println("Edad: " + cliente.getEdad());
+            System.out.println("Nombre: " + cliente.getNombre());
+            System.out.println("Teléfono: " + cliente.getTelf());
+            System.out.println("Crédito: = " + cliente.getCredit());
+
+     }}
+
+class Trabajador extends Persona {
+
+     int salario;
+     
+    }}
