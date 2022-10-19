@@ -56,7 +56,7 @@ class Main {
         System.out.println("Edad: " + cliente.getEdad());
         System.out.println("Nombre: " + cliente.getNombre());
         System.out.println("Teléfono: " + cliente.getTelf());
-        System.out.println("Crédito: = " + cliente.getCredit());
+        System.out.println("Crédito: " + cliente.getCredit());
 
     }
 }
