@@ -1,0 +1,31 @@
+package TiposDeDatos;
+
+public class Ejercicio1 {
+
+    public static void main(String[] args) {
+
+        byte enteros1 = 5;
+        System.out.println("Byte = " + enteros1);
+        short enteros2 = 10;
+        System.out.println("Short = " + enteros2);
+        int enteros3 = 500;
+        System.out.println("Int = " + enteros3);
+        long enteros4 = 50000;
+        System.out.println("Long = " + enteros4);
+
+        float decimales1 = 5.5f;
+        System.out.println("Float = " + decimales1);
+        double decimales2 = 55.5d;
+        System.out.println("Double = " + decimales2);
+
+        boolean si = true;
+        System.out.println("Boolean True = " + si);
+        boolean no = false;
+        System.out.println("Boolean False = " + no);
+
+        char texto1 = 'a';
+        System.out.println("Char = " + texto1);
+        String texto2 = "Hola a todo el mundo.";
+        System.out.println("String = " + texto2);
+    }
+}
