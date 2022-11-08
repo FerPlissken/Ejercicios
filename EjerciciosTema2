@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class EjercicioIVA {
+
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+
+        double precio, iva, totalIva, totalNeto;
+
+        System.out.println("Introduzca el Precio: ");
+        precio = in.nextDouble();
+
+        System.out.println("Introduzca el IVA: ");
+        iva = in.nextDouble();
+
+        totalIva = precio * (iva/100);
+        totalNeto = precio + totalIva;
+
+        System.out.println((("El precio es de " + precio) + (" con un impuesto del " + iva + "% de IVA") + (" da un total neto de: " + totalNeto)));
+    }
+}
