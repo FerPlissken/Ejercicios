@@ -1,0 +1,10 @@
+public class EjercicioBucleTextos {
+
+    public static void main(String[] args) {
+
+        String[] nombres = {"Claudio", "Pepe", "Mariano", "Ana", "Macarena", "Beatriz", "Luciano"};
+        for (String nombre : nombres) {
+            System.out.println("Nombre: " + nombre);
+        }
+    }
+}
